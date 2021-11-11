@@ -1,0 +1,59 @@
+2021-11-10 19:50:05,338:INFO: -----------Starting Experiment------------
+2021-11-10 19:54:08,515:INFO: -----------Starting Experiment------------
+2021-11-10 20:00:37,714:INFO: -----------Starting Experiment------------
+2021-11-10 20:03:35,266:INFO: -----------Starting Experiment------------
+2021-11-10 20:06:36,339:INFO: 
+Train for Epoch: 0/5
+2021-11-10 20:07:39,074:INFO: -----------Starting Experiment------------
+2021-11-10 20:08:16,824:INFO: 
+Train for Epoch: 0/5
+2021-11-10 20:08:49,718:INFO: -----------Starting Experiment------------
+2021-11-10 20:09:20,413:INFO: 
+Train for Epoch: 0/5
+2021-11-10 20:11:10,320:INFO: -----------Starting Experiment------------
+2021-11-10 20:11:39,265:INFO: 
+Train for Epoch: 0/5
+2021-11-10 20:15:22,392:INFO: -----------Starting Experiment------------
+2021-11-10 20:15:54,882:INFO: 
+Train for Epoch: 0/5
+2021-11-10 20:19:15,393:INFO: -----------Starting Experiment------------
+2021-11-10 20:19:49,466:INFO: 
+Train for Epoch: 0/5
+2021-11-10 20:34:13,327:INFO: -----------Starting Experiment------------
+2021-11-10 20:34:32,168:INFO: 
+Train for Epoch: 0/5
+2021-11-10 20:35:14,132:INFO: -----------Starting Experiment------------
+2021-11-10 20:35:33,176:INFO: 
+Train for Epoch: 0/5
+2021-11-10 20:40:10,619:INFO: Train Epoch: 0 LR: 0.0010 Avg Loss: 2.0928; Avg Acc: 21.4287
+2021-11-10 20:40:10,620:INFO: 
+Validate for Epoch: 0/5
+2021-11-10 20:40:36,990:INFO: Val Epoch: 0 Avg Loss: 2.0008 	 Avg Acc: 29.1000
+2021-11-10 20:40:37,338:INFO: 
+Train for Epoch: 1/5
+2021-11-10 20:47:10,013:INFO: Train Epoch: 1 LR: 0.0010 Avg Loss: 2.0441; Avg Acc: 25.0627
+2021-11-10 20:47:10,014:INFO: 
+Validate for Epoch: 1/5
+2021-11-10 20:47:45,873:INFO: Val Epoch: 1 Avg Loss: 2.1620 	 Avg Acc: 29.7000
+2021-11-10 20:47:45,873:INFO: 
+Train for Epoch: 2/5
+2021-11-10 20:53:20,871:INFO: Train Epoch: 2 LR: 0.0010 Avg Loss: 2.0211; Avg Acc: 27.4815
+2021-11-10 20:53:20,872:INFO: 
+Validate for Epoch: 2/5
+2021-11-10 20:53:53,887:INFO: Val Epoch: 2 Avg Loss: 2.0016 	 Avg Acc: 29.7800
+2021-11-10 20:53:54,013:INFO: 
+Train for Epoch: 3/5
+2021-11-10 21:00:54,200:INFO: Train Epoch: 3 LR: 0.0010 Avg Loss: 2.0092; Avg Acc: 27.2517
+2021-11-10 21:00:54,201:INFO: 
+Validate for Epoch: 3/5
+2021-11-10 21:01:26,329:INFO: Val Epoch: 3 Avg Loss: 2.0791 	 Avg Acc: 32.2800
+2021-11-10 21:01:26,330:INFO: 
+Train for Epoch: 4/5
+2021-11-10 21:07:14,125:INFO: Train Epoch: 4 LR: 0.0010 Avg Loss: 1.9990; Avg Acc: 27.2385
+2021-11-10 21:07:14,125:INFO: 
+Validate for Epoch: 4/5
+2021-11-10 21:07:32,787:INFO: Val Epoch: 4 Avg Loss: 1.9370 	 Avg Acc: 33.5000
+2021-11-10 21:07:33,098:INFO: 
+Evaluate test result on best ckpt
+2021-11-10 21:08:11,158:INFO: Test: Avg Loss: 1.9650 	 Avg Acc: 33.1100
+2021-11-10 21:08:11,164:INFO: -----------End of Experiment------------

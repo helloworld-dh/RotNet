@@ -1,0 +1,58 @@
+# Dataset Parameters
+num_classes: 10
+# define lebels to class dictionary
+#labels_to_class:
+#  0: 'daisy'
+#  1: 'dandelion'
+#  2: 'rose'
+#  3: 'sunflower'
+#  4: 'tulip'
+
+mean_val: [0.49139968, 0.48215841, 0.44653091]#[147.16463878,147.02933698,121.82977662]
+std_val: [0.24703223, 0.24348513, 0.26158784]#[23.35500145,24.29656621,53.20534792]
+
+#class_to_labels: {'daisy':0,'dandelion':1,'rose':2,'sunflower':3,'tulip':4}
+
+#paths
+#root_path: 'D:\paper\Self_Supervised_Learning\codes\self_supervised_learning_pytorch'
+root_path: 'D:\paper\Self_Supervised_Learning\codes\self_supervised_learning_pytorch'
+data_path: 'dataset'
+exp_type: 'self-supervised' # 'supervised' or 'self-supervised'
+save_dir: 'ssl_exp_5_rotnet_do_org_img_sz'
+imgs_dir: 'flowers'
+labels_dir: 'annotations'
+log: 'train.log'
+dataset: 'cifar10'
+
+# Self Supervised Params
+pretext: 'rotation'
+num_rot: 4
+
+
+#model parameters
+network: 'resnet18'
+lr: 1e-3
+momentum: 9e-1
+scheduler: False
+opt: 'sgd'
+val_split: False
+
+# Training Parameters
+num_epochs: 200
+batch_size: 8
+mean_norm: False
+img_sz: 32
+cuda_num: 0
+use_cuda: True
+data_aug: False #['randomhorizontalflip','randomcrop']# None
+
+#saving parameters
+save_intermediate_weights: 1 # After how many epoch to save the weights
+
+# linear_eval
+model: 'logistic_reg'
+logistic_batch_size: 256
+logistic_epochs: 100
+
+
+

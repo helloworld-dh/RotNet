@@ -1,0 +1,62 @@
+# Dataset Parameters
+num_classes: 10
+# define lebels to class dictionary
+#labels_to_class:
+#  0: 'daisy'
+#  1: 'dandelion'
+#  2: 'rose'
+#  3: 'sunflower'
+#  4: 'tulip'
+
+mean_val: [0.49139968, 0.48215841, 0.44653091]#[147.16463878,147.02933698,121.82977662]
+std_val: [0.24703223, 0.24348513, 0.26158784]#[23.35500145,24.29656621,53.20534792]
+
+#class_to_labels: {'daisy':0,'dandelion':1,'rose':2,'sunflower':3,'tulip':4}
+
+#paths
+root_path: 'D:\paper\Self_Supervised_Learning\codes\self_supervised_learning_pytorch'
+data_path: 'dataset'
+exp_type: 'supervised' # 'supervised' or 'self-supervised'
+save_dir: 'sl_rotnet_pret_1'
+imgs_dir: 'flowers'
+labels_dir: 'annotations'
+log: 'train.log'
+
+# Self Supervised Params
+pretext: False     #False 'rotation'
+num_rot: 4
+
+#supervised params
+use_pretrained: False
+pretrained_dir: None
+pretrained_weights: None
+
+use_ssl: True
+ssl_pretrained_exp_path: 'ssl_exp_5_rotnet_do_org_img_sz'
+ssl_weight: 'resnet18_best.pth'
+
+#model parameters
+network: 'resnet18'
+lr: 1e-3
+momentum: 9e-1
+scheduler: False
+opt: 'adam'
+
+# Training Parameters
+num_epochs: 100
+batch_size: 8
+mean_norm: False
+img_sz: 32
+val_split: False
+cuda_num: 0
+use_cuda: False
+data_aug: False #['randomhorizontalflip','randomcrop']# None
+
+# pretrained model
+
+
+#saving parameters
+save_intermediate_weights: 2 # After how many epoch to save the weights
+
+
+
